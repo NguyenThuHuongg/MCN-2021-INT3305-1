@@ -45,13 +45,13 @@ def approxEntropy(N, p):
   return H
 
 if __name__ == "__main__":
-  print(prob(5, 1/2)) 
-  print(infoMeasure(5, 1/2)) 
-  print(sumProb(50, 1/2))
-  print(approxEntropy(50, 1/2))
+  print(prob(10, 1/2)) 
+  print(infoMeasure(10, 1/2)) 
+  print(sumProb(20, 1/2))
+  print(approxEntropy(20, 1/2))
   '''
-    0.03125
-    5.0
-    0.9999999999999982
-    1.9999999999999094
+    0.0009765625
+    10.0
+    0.9999980926513672
+    1.999959945678711
   '''
